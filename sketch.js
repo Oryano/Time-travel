@@ -1,6 +1,11 @@
-// A2Z F15
-//Oryan Inbar ITP 2015
-//Internet time Machine
+
+//Oryan Inbar A2Z ITP 2015
+//Internet time travel
+//live site: http://oryano.github.io/Time-travel/
+
+//documentation for the API used (internet archive)
+//https://archive.org/help/wayback_api.php
+
 
 var input;  // Input from users
 var todayDate;	//Todays date
@@ -21,7 +26,7 @@ function setup(){
 function search(){
 	var websiteToSearch = input.value();  //format name.com
 
-	var firstTimeStamp = 20020101; //the oldest date will throw back oldest archived
+	var firstTimeStamp = 19990508; //the oldest date will throw back oldest archived
 	
 	//url to return JSON for querying availabel on the Archive
 	var url = 'http://archive.org/wayback/available?url=' + websiteToSearch + '&timestamp=' + firstTimeStamp;  //'http://archive.org/wayback/available?url=' + websiteToSearch;
