@@ -21,7 +21,7 @@ function setup(){
 function search(){
 	var websiteToSearch = input.value();  //format name.com
 
-	var firstTimeStamp = 20060101; //the oldest date will throw back oldest archived
+	var firstTimeStamp = 20020101; //the oldest date will throw back oldest archived
 	
 	//url to return JSON for querying availabel on the Archive
 	var url = 'http://archive.org/wayback/available?url=' + websiteToSearch + '&timestamp=' + firstTimeStamp;  //'http://archive.org/wayback/available?url=' + websiteToSearch;
