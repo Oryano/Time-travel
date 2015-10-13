@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+	  	<meta charset="UTF-8">
+	    <title>Internet Time Machine</title>
+	    <script src="libraries/p5.js" type="text/javascript"></script>
+	    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+	    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	    <script src="sketch.js" type="text/javascript"></script>
+	    <style>
+		      body {
+		        padding: 20px;
+		       /* background-color: #79a6c8;*/
+		        font-family: Monaco, "Lucida Console", monospace; 
+		      }
+		      h1{
+		      	color: #0d445c;
+		      }
+
+		      #submit{		      	
+		      	box-sizing: border-box;
+			    -webkit-box-sizing: border-box;
+			    -moz-box-sizing: border-box;
+			    width: 40%;
+			    background: #B7B7B7;			   
+			    border-style: none;	
+			    font: 150% Monaco, "Lucida Console", monospace; 
+		      }
+
+		     #search {
+		        -webkit-transition: all 0.30s ease-in-out;
+			    -moz-transition: all 0.30s ease-in-out;
+			    -ms-transition: all 0.30s ease-in-out;
+			    -o-transition: all 0.30s ease-in-out;
+			    outline: none;
+			    box-sizing: border-box;
+			    -webkit-box-sizing: border-box;
+			    -moz-box-sizing: border-box;
+			    background: #fff;
+			    margin-bottom: 4%;
+			    border: 1px solid #ccc;
+			    color: #ff5757;
+			    font: 150% Monaco, "Lucida Console", monospace;
+		      }
+		      #yearButtons{
+		      	opacity: 1;
+    			margin: 0 auto;
+			    position: relative;
+			    width: 25%;
+		      }
+		      #year{
+		      	display: inline-block;
+		      }
+		      #forward, #backward{
+		      	margin: 1%;
+			  }
+			  input.fwdBck:hover { 
+			  	background-color: red; 
+			  }
+			  #results{
+			  	height: auto;
+			  	position: relative;
+			  }
+	    </style>
+  </head>
+   
+
+
+    <body>
+
+		<h1>Internet Time Machine</h1>
+
+		
+	    <h4>This Machine can give you a glimpse into the past</h4>
+
+	    <div>
+	    <input id = "search" placeholder="Type website url.."></input>
+    	<button id = "submit">TRAVEL IN TIME</button>
+    	</div>
+    	<div id = 'results'>
+	    	<iframe src="fallback_frame.html" id = "frame" width = '100%' height ='400'sandbox = "allow-scripts">
+	    		<h1> You browser does not support this feature - move to chrome </h1>
+	    	</iframe>
+
+	    	<br />
+	    	<div id = 'yearButtons'>
+		    	<input id = 'forward' class = 'fwdBck' type="button" value = '&#60 &#60'/>
+		    	<h2 id = 'year'>1981</h2>
+		    	<input id = 'backward' class = 'fwdBck' type="button" value = '&#62 &#62'/>
+	    	</div>
+    	</div>
+    	
+   </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
