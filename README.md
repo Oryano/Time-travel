@@ -4,6 +4,6 @@ Using the Internet Archives open API (based on the finding of Alexa an 1996 sear
 Try it now here: [Time-travel](http://oryano.github.io/Time-travel)
 
 Need to work on:
-*buttons functionality
-*sites that dont work (e.g. amazon)
-*lable the exact year
+* buttons functionality
+* sites that dont work (e.g. amazon)
+* lable the exact year
