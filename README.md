@@ -7,3 +7,4 @@ Need to work on:
 * buttons functionality
 * sites that dont work (e.g. amazon)
 * lable the exact year
+* Make search button work with return key
