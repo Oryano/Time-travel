@@ -1,3 +1,3 @@
 # Time-travel
 
-Try it now on here: (http://oryano.github.io/Time-travel) [Time-travel]
+Try it now here: [http://oryano.github.io/Time-travel] (Time-travel)
